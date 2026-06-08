@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def landing():
-    return render_template("landing.html")
+    return render_template("landing.html")  
 
 
 @app.route("/register")
